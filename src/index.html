@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- header section -->
+    <div class="container mx-auto bg-green-200">
+        <nav class="flex justify-between items-center">
+            <div class="h-16 w-16">
+                <a href="#"><img class="rounded-full" src="https://picsum.photos/200" alt=""></a>
+            </div>
+            <ul class="md:flex space-x-6 hidden">
+                <li><a class="text-blue-700 font-medium hover:text-gray-950" href="#">Home</a></li>
+                <li><a class="text-blue-700 font-medium hover:text-gray-950" href="#">About</a></li>
+                <li><a class="text-blue-700 font-medium hover:text-gray-950" href="#">Services</a></li>
+                <li><a class="text-blue-700 font-medium hover:text-gray-950" href="#">Contact</a></li>
+            </ul>
+            <button
+                class="hidden md:block bg-green-500 px-6 py-2 rounded-full text-white font-medium hover:bg-blue-300">Signup</button>
+            <!-- moble responsive -->
+            <button class="md:hidden mobile-icon"><i class="fa-solid fa-bars h-10 w-10 mr-3 text-2xl"></i></button>
+
+        </nav>
+    </div>
+
+
+    <!-- moble navigation -->
+    <div class="md:hidden mobile-menu">
+        <ul class="flex flex-col items-center space-y-6 ">
+            <li><a class="text-blue-700 font-medium hover:text-gray-950" href="#">Home</a></li>
+            <li><a class="text-blue-700 font-medium hover:text-gray-950" href="#">About</a></li>
+            <li><a class="text-blue-700 font-medium hover:text-gray-950" href="#">Services</a></li>
+            <li><a class="text-blue-700 font-medium hover:text-gray-950" href="#">Contact</a></li>
+            <li><button
+                    class="bg-green-500 px-6 py-2 rounded-full text-white font-medium hover:bg-blue-300">Signup</button>
+            </li>
+        </ul>
+    </div>
+    <!-- hero section -->
+
+    <div class="container mx-auto mt-12 flex flex-col md:flex-row">
+        <div class="md:w-1/2 text-center ">
+            <p class="mt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae labore incidunt
+                distinctio possimus reiciendis error, quo consequatur natus earum molestiae!</p>
+            <button class="bg-blue-700 text-white px-6 py-2 rounded-full mt-6 font-medium">Get Started</button>
+        </div>
+        <div class="md:w-1/2">
+            <img class="mx-auto h-60" src="assets/undraw_travelers_kud9.png" alt="assets">
+        </div>
+    </div>
+    <!-- main section -->
+    <main>
+        <div class="container mx-auto flex flex-col mt-12 md:flex-row sm:gap-12">
+            <div class="md:w-1/3 flex flex-col items-center text-center ">
+                <h1 class="text-2xl">Web Devlopment</h1>
+                <img class="h-40 w-40" src="assets\undraw_finance_m6vw.png" alt="undraw_finance_m6vw">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ullam aut. Fugiat impedit vel, pariatur
+                    delectus labore voluptates! Nam officia, quae quos eveniet vel sint adipisci vero consectetur
+                    recusandae labore.</p>
+                <button class="bg-blue-700 text-white px-6 py-2 rounded-full mt-6 font-medium">Read More</button>
+            </div>
+            <div class="md:w-1/3 flex flex-col items-center text-center">
+                <h1 class="text-2xl">Mobile app Devlopment</h1>
+                <img class="h-40 w-40 " src="assets/undraw_online-posts_avfn.png" alt="assets">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ullam aut. Fugiat impedit vel, pariatur
+                    delectus labore voluptates! Nam officia, quae quos eveniet vel sint adipisci vero consectetur
+                    recusandae labore.</p>
+                <button class="bg-blue-700 text-white px-6 py-2 rounded-full mt-6 font-medium">Read More</button>
+            </div>
+            <div class="md:w-1/3 flex flex-col items-center text-center">
+                <h1 class="text-2xl">Design Devlopment</h1>
+                <img class="h-40 w-40" src="assets/undraw_progress-indicator_c14b.png" alt="indicator_c14b">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ullam aut. Fugiat impedit vel, pariatur
+                    delectus labore voluptates! Nam officia, quae quos eveniet vel sint adipisci vero consectetur
+                    recusandae labore.</p>
+                <button class="bg-blue-700 text-white px-6 py-2 rounded-full mt-6 font-medium">Read More</button>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- pricing section -->
+    <section>
+        <div class="container mx-auto  mt-6 ">
+            <div class="text-center">
+                <h1 class="font-bold text-gray-500 text-3xl">pricing</h1>
+                <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sunt magni iusto
+                    odio, sequi tempore!</p>
+                <p class="text-2xl">Lorem, ipsum.</p>
+            </div>
+            <div class="grid md:grid-cols-3  grid-cols-1 gap-4 mt-4 mx-32">
+                <div class="bg-gray-300  w-80 rounded-2xl hover:shadow-2xl text-center ">
+                    <h1 class="font-bold text-5xl">$99</h1>
+                    <h2 class="text-green-500 mb-3 text-2xl">Basic</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, facilis?</p>
+                    <ul class="ml-4">
+                        <li class="flex items-center mt-4">
+                            <div>
+                                <p class="font-medium">*</p>
+                            </div>
+                            <div>
+                                Lorem, ipsum dolor.
+                            </div>
+                        </li>
+                        <li class="flex items-center mt-4">
+                            <div>
+                                <p class="font-medium">&</p>
+                            </div>
+                            <div>
+                                Lorem, ipsum dolor.
+                            </div>
+                        </li>
+                        <li class="flex items-center mt-4">
+                            <div>
+                                <p class="font-medium">$</p>
+                            </div>
+                            <div>
+                                Lorem, ipsum dolor.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div
+                    class="bg-gray-300  w-80 rounded-2xl hover:shadow-2xl text-center border-2 border-indigo-500 border-dashed">
+                    <h1 class="font-bold text-5xl">$100</h1>
+                    <h2 class="text-green-500 mb-3 text-2xl">Basic</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, facilis?</p>
+                    <ul class="ml-4">
+                        <li class="flex items-center mt-4">
+                            <div>
+                                <p class="font-medium">*</p>
+                            </div>
+                            <div>
+                                Lorem, ipsum dolor.
+                            </div>
+                        </li>
+                        <li class="flex items-center mt-4">
+                            <div>
+                                <p class="font-medium">&</p>
+                            </div>
+                            <div>
+                                Lorem, ipsum dolor.
+                            </div>
+                        </li>
+                        <li class="flex items-center mt-4">
+                            <div>
+                                <p class="font-medium">$</p>
+                            </div>
+                            <div>
+                                Lorem, ipsum dolor.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-gray-300  w-80 rounded-2xl hover:shadow-2xl text-center ">
+                    <h1 class="font-bold text-5xl">$250</h1>
+                    <h2 class="text-green-500 mb-3 text-2xl">Basic</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, facilis?</p>
+                    <ul class="ml-4">
+                        <li class="flex items-center mt-4">
+                            <div>
+                                <p class="font-medium">*</p>
+                            </div>
+                            <div>
+                                Lorem, ipsum dolor.
+                            </div>
+                        </li>
+                        <li class="flex items-center mt-4">
+                            <div>
+                                <p class="font-medium">&</p>
+                            </div>
+                            <div>
+                                Lorem, ipsum dolor.
+                            </div>
+                        </li>
+                        <li class="flex items-center mt-4">
+                            <div>
+                                <p class="font-medium">$</p>
+                            </div>
+                            <div>
+                                Lorem, ipsum dolor.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- story section -->
+    <article>
+        <div class="container mx-auto mt-12">
+            <div class="text-center">
+                <h1>Lorem, ipsum.</h1>
+                <h1 class="text-5xl">Lorem, ipsum.</h1>
+            </div>
+            <div class="grid md:grid-cols-3 grid-cols-1 gap-4 mx-32">
+                <div class="bg-gray-200 rounded-2xl text-center">
+                    <img class="mt-4 w-full h-60" src="https://picsum.photos/200" alt="picsum">
+                    <h1 class="mt-4 text-2xl text-indigo-500">Lorem, ipsum dolor.</h1>
+                    <p class="font-thin mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum obcaecati
+                        similique excepturi architecto necessitatibus eos!</p>
+                    <a href="#" class="text-indigo-500 font-bold">Read More</a>
+                </div>
+                <div class="bg-gray-200 rounded-2xl text-center">
+                    <img class="mt-4 h-60 w-full" src="https://picsum.photos/200" alt="picsum">
+                    <h1 class="mt-4 text-2xl text-indigo-500">Lorem, ipsum dolor.</h1>
+                    <p class="font-thin mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum obcaecati
+                        similique excepturi architecto necessitatibus eos!</p>
+                    <a href="#" class="text-indigo-500 font-bold">Read More</a>
+                </div>
+                <div class="bg-gray-200 rounded-2xl text-center">
+                    <img class="mt-4 h-60 w-full" src="https://picsum.photos/200" alt="picsum">
+                    <h1 class="mt-4 text-2xl text-indigo-500">Lorem, ipsum dolor.</h1>
+                    <p class="font-thin mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum obcaecati
+                        similique excepturi architecto necessitatibus eos!</p>
+                    <a href="#" class="text-indigo-500 font-bold">Read More</a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+
+    <!-- footer section -->
+    <footer class="bg-gray-200 mt-12 p-15">
+        <div class="container mx-auto flex sm:gap-5 flex-col py-10 md:flex-row md:pt-32">
+            <!-- 25% -->
+            <div class="w-1/4">
+                <p class="font-medium text-2xl">lorem</p>
+            </div>
+            <!-- 50% -->
+            <div class="w-1/2  flex flex-col md:flex-row ">
+                <div class="pr-24">
+                    <h2 class="text-xl font-bold">links</h2>
+                    <ul class="space-y-2 mt-4">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="pr-24">
+                    <h2 class="text-xl font-bold">links</h2>
+                    <ul class="space-y-2 mt-4">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="pr-24">
+                    <h2 class="text-xl font-bold">links</h2>
+                    <ul class="space-y-2 mt-4">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Service</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- 25% -->
+            <div class="w-1/4 flex  justify-end gap-4">
+                <button><img class="h-10 w-10" src="assets/face-book-img.png" alt=""></button>
+                <button><img class="h-10 w-10" src="assets/insta-img.png" alt=""></button>
+                <button><img class="h-10 w-10" src="assets/linked-in-img.png" alt=""></button>
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+        const MobileIcon = document.querySelector('.mobile-icon');
+        const MobileMenu = document.querySelector('.mobile-menu');
+
+        MobileIcon.addEventListener('click', () => {
+            MobileMenu.classList.toggle('hidden')
+        })
+    </script>
+</body>
+
+</html>
